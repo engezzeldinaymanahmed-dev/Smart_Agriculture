@@ -81,3 +81,10 @@ Do not power the pump from the ESP32 3V3 pin or a GPIO. Use NO, not NC.
 - TDS ppm uses the common DFRobot-style polynomial and the DHT11 **air** temperature as a stand-in for water temperature: treat as approximate until you set the factor against a known solution.
 - LDR shows raw ADC only, no lux.
 - Resistive soil sensor corrodes; keep it out of the soil when not testing, or later use `PIN_SOIL_POWER`.
+
+## 👨‍💻 Authors
+
+- **Ezzeldin Ayman**
+- **Youssef Ahmed**
+
+*Microprocessor Course Project (`EEC 
